@@ -1,3 +1,5 @@
+import { PureInboxScreenComponent } from './components/pure-inbox-screen.component';
+import { InboxScreenComponent } from './components/inbox-screen.component';
 import { environment } from './../environments/environment';
 import { NgxsModule } from '@ngxs/store';
 import { TaskModule } from './components/task.module';
@@ -12,6 +14,8 @@ import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
 @NgModule({
   declarations: [
     AppComponent,
+    InboxScreenComponent,
+    PureInboxScreenComponent
   ],
   imports: [
     BrowserModule,
