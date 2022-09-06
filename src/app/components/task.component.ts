@@ -24,6 +24,7 @@ import { Task } from "../models/task.model";
         for="title-{{ task?.id }}"
         class="title"
       >
+      <!-- style="background: red;" -->
         <input
           type="text"
           [value]="task.title"
@@ -31,7 +32,6 @@ import { Task } from "../models/task.model";
           id="title-{{ task?.id }}"
           name="title-{{ task?.id }}"
           placeholder="Input title"
-          style="background: red;"
         />
       </label>
       <button
